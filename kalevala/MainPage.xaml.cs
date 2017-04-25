@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -42,9 +44,10 @@ namespace kalevala
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
-            //Application.Exit();
-            //Environment.Exit(0);
+            CoreApplication.Exit();
             
+            
+            Debug.WriteLine("peli loppui");
         }
     }
 }

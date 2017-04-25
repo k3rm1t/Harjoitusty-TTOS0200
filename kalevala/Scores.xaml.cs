@@ -22,10 +22,16 @@ namespace kalevala
     /// </summary>
     public sealed partial class Scores : Page
     {
+
         public Scores()
         {
             this.InitializeComponent();
         }
+        public object NewScore { get; private set; }
+        //once clicked
+    
+    
+        //Go back to GamePage
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
@@ -34,6 +40,14 @@ namespace kalevala
             {
                 rootFrame.GoBack();
             }
+        }
+        // Parameters from Player
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            var parameters = (Player)e.Parameter;
+            parameters.Name1 = Name;
+
         }
     }
 }

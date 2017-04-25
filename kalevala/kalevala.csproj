@@ -95,11 +95,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Board.cs" />
     <Compile Include="GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Panel.cs" />
+    <Compile Include="ScoreCount.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -117,6 +116,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\ahven.png" />
+    <Content Include="Assets\hauki.png" />
+    <Content Include="Assets\man.png" />
+    <Content Include="Assets\robber.png" />
     <Content Include="Assets\vainmoinen.png" />
     <Content Include="Assets\water.png" />
     <Content Include="Assets\wave.png" />
