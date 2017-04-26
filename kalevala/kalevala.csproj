@@ -89,7 +89,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="Documents\Harjoitustyoraportti.docx" />
     <None Include="Documents\HarjoitustyöSuunnitelma.docx" />
+    <None Include="Documents\Olio-ohjelmointi.pptx" />
     <None Include="Documents\tunnit.xlsx" />
     <None Include="project.json" />
   </ItemGroup>
