@@ -32,7 +32,7 @@ namespace kalevala
         public static ScoreCount Current { get; internal set; }
         public int NewScore { get; set; }
         public int Number { get; internal set; }
-
+        //Score = 0;
         private int AddScore()
         {
             Score += NewScore;

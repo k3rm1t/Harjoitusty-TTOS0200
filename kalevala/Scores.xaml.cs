@@ -42,12 +42,13 @@ namespace kalevala
             }
         }
         // Parameters from Player
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+  /*      protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
             var parameters = (Player)e.Parameter;
             parameters.Name1 = Name;
 
         }
+    */
     }
 }
